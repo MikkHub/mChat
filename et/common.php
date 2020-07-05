@@ -37,7 +37,13 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'MCHAT_TITLE'					=> 'mVestlus',
-	'MCHAT_TITLE_COUNT'				=> 'mini-Vestlus [<strong>%1$d</strong>]',
+	'MCHAT_TITLE_COUNT'				=> [
+		0 => 'mVestlus',
+		1 => 'mVestlus [<strong>%1$d</strong>]',
+	],
+	'MCHAT_NAVBAR_CUSTOM_PAGE'		=> 'mVestlus lehekülg',
+	'MCHAT_NAVBAR_ARCHIVE'			=> 'Arhiiv',
+	'MCHAT_NAVBAR_RULES'			=> 'Reeglid',
 
 	// Who is chatting
 	'MCHAT_WHO_IS_CHATTING'			=> 'Kes vestlevad',

@@ -43,6 +43,7 @@ $lang = array_merge($lang, array(
 	'MCHAT_SETTINGS_POSTS'							=> 'Uute postituste seaded',
 	'MCHAT_SETTINGS_MESSAGES'						=> 'Sõnumite seaded',
 	'MCHAT_SETTINGS_PRUNE'							=> 'Kärpimise seaded (ainult foorumi asutajad saavad reguleerida)',
+	'MCHAT_SETTINGS_LOG'							=> 'Logi seaded (seadistatavad ainult asutajatele)',
 	'MCHAT_SETTINGS_STATS'							=> 'Kes vestlevad seaded',
 
 	'MCHAT_GLOBALUSERSETTINGS_EXPLAIN'				=> 'Seadistatakse neile kasutajatele kellel <strong>EI OLE</strong> õigusi kohandada alljärgnevaid seadeid.<br />Uutel kasutajatel on koheselt need seaded, mis on alljärgnevalt seadistatud.<br /><br />Mine <em>mVestlus KJP</em> vahelehe õiguste sektsiooni, et kohandada neid õigusi.<br />Mine <em>mVestlus seaded</em> väljale <em>kasutaja administratsiooni</em> sektsioonis, et näha ja seadistada antuid olekuid.',
@@ -115,6 +116,8 @@ $lang = array_merge($lang, array(
 	'MCHAT_OVERRIDE_SMILIE_LIMIT_EXPLAIN'			=> 'Seadista jah, kui soovid kirjutada üle foorumite emotikoni piirangu vestluse sõnumitele',
 	'MCHAT_OVERRIDE_MIN_POST_CHARS'					=> 'Sümbolite minimaalse piirangu ülekirjutamine',
 	'MCHAT_OVERRIDE_MIN_POST_CHARS_EXPLAIN'			=> 'Seadista jah, kui soovid kirjutada üle foorumite minimaalse sümboli piirangu vestluse sõnumites',
+	'MCHAT_LOG_ENABLED'								=> 'Add entries to the admin log',
+	'MCHAT_LOG_ENABLED_EXPLAIN'						=> 'This affects message editing, deleting, pruning and purging.',
 
 	'MCHAT_POSTS_AUTH_CHECK'						=> 'Vajalik kasutaja õigusi',
 	'MCHAT_POSTS_AUTH_CHECK_EXPLAIN'				=> 'Kui seadistatud JAH, siis kasutajad kellel ei ole õigusi kasutada mVestlust, siis neile ei genereerita ühtegi postituse või sisselogimise teadet.',
